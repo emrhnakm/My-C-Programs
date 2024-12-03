@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-double vkihesap(double kilo,double boy){
-    return kilo/(boy*boy);
-}
+double vkihesap(double kilo,double boy)
+
 int main(){
     double vki,kilo,boy;
     printf("Kilonuzu giriniz(kg):");
@@ -21,3 +20,6 @@ int main(){
     else if(vki>30) printf("VKİ değeriniz %.2lf Durumunuz Obez\n",vki);
     return 0;
     }
+double vkihesap(double kilo,double boy){
+    return kilo/(boy*boy); 
+}
