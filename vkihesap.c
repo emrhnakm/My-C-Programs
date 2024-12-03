@@ -19,6 +19,5 @@ int main(){
     else if(vki>18.5 && vki<=24.9) printf("VKİ değeriniz %.2lf Durumunuz Normal\n",vki);
     else if(vki>25 && vki<=29.9) printf("VKİ değeriniz %.2lf Durumunuz Fazla Kilolu\n",vki);
     else if(vki>30) printf("VKİ değeriniz %.2lf Durumunuz Obez\n",vki);
-    else printf("Hata!!!\n");
     return 0;
     }
